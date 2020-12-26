@@ -1,5 +1,8 @@
 $blurs: (
-    "blur-half": 4px
+    "blur-quarter": 2px,
+    "blur-half": 4px,
+    "blur-tq": 6px,
+    "blur-full": 8px
 );
 
 $top-padding: (
@@ -8,6 +11,11 @@ $top-padding: (
     "pt-250": 250px,
     "pt-300": 300px,
     "pt-500": 500px
+);
+
+$left-padding: (
+    "pl-100": 100px,
+    "pl-150": 150px
 );
 
 $heights: (
@@ -26,6 +34,12 @@ $heights: (
 @each $name, $padding in $top-padding {
     .#{$name} {
         padding-top: $padding;
+    }
+}
+
+@each $name, $padding in $left-padding {
+    .#{$name} {
+        padding-left: $padding;
     }
 }
 
