@@ -1,6 +1,6 @@
 .blur-half {
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
 }
 
 .hght-100 {
