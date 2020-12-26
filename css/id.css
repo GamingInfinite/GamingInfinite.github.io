@@ -5,3 +5,9 @@
     background-size: cover;
     height: 500px;
 }
+
+#content {
+    position: fixed;
+    left: 0;
+    right: 0;
+}

@@ -3,9 +3,20 @@ $blurs: (
     "blur-none": 0px
 );
 
+$heights: (
+    "hght-100": 100px,
+    "hght-500": 500px
+);
+
 @each $name, $percent in $blurs {
     .#{$name} {
         filter: blur($percent);
         -webkit-filter: blur($percent);
+    }
+}
+
+@each $name, $height in $heights {
+    .#{$name} {
+        height: $height;
     }
 }

@@ -7,4 +7,12 @@
   filter: blur(0px);
   -webkit-filter: blur(0px);
 }
+
+.hght-100 {
+  height: 100px;
+}
+
+.hght-500 {
+  height: 500px;
+}
 /*# sourceMappingURL=procedural.css.map */
