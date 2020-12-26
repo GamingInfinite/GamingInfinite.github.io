@@ -9,26 +9,25 @@
     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
     crossorigin="anonymous"
   />
-  <link href="css/main.css" rel="stylesheet" />
-  <link href="scss/procedural.css" rel="stylesheet" />
+  <link href="/css/main.css" rel="stylesheet" />
+  <link href="/scss/procedural.css" rel="stylesheet" />
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
     crossorigin="anonymous"
   ></script>
-
   <body>
     <div class="container-fluid blur-half" id="banner"></div>
-    <div class="container-fluid" id="content">
+    <div class="container-fluid">
       <div class="row pt-2 hght-500">
-        <div class="col-12">
+        <div class="col-12" id="content">
           <nav
             class="navbar navbar-expand-lg navbar-dark bg-dark rounded-pill align-top blur-none"
           >
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
                 <img
-                  src="images\logo.png"
+                  src="/images/logo.png"
                   alt=""
                   width="30"
                   height="30"
@@ -37,7 +36,7 @@
                 Gaming Infinite
               </a>
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
+                <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle active"
                     href="#"
@@ -58,7 +57,7 @@
                   <a
                     class="nav-link active"
                     aria-current="page"
-                    href="html/about.html"
+                    href="/html/about.html"
                   >
                     About Me
                   </a>
@@ -116,13 +115,18 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="row pt-500">
+      <div class="row py-2">
         <div class="col-12">
-            <div class="paragraph-text text-center">
-                I'm a YouTuber/Twitch Streamer, who loves to provide entertainment while enjoying the moment themselves.  I'm also a developer, mostly small mods or tools that were really meant to help me out more than anything else.  I love to mod my favorite games, and will showcase various mods that I feel should be spread for the sheer enjoyment of the mods.
-            </div>
+          <div class="paragraph-text text-center">
+            I'm a YouTuber/Twitch Streamer who enjoys entertaining, just out of
+            wanting to entertain. I'm also a developer, creating mods or tools
+            that are really just meant to make things easier, or a bit more
+            interesting. I love modding my games, because it's almost always a
+            different experience, and when it isn't a different experience, it
+            makes it all the better.
+          </div>
         </div>
+      </div>
     </div>
   </body>
 </html>
