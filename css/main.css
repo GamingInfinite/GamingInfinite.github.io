@@ -2,9 +2,10 @@
 
 .title-text {
     color: goldenrod;
-    text-shadow: 2px 2px black;
+    text-shadow: 5px 5px black;
     font-family: 'Rubik';
     font-size: 40px;
+    height: 400px;
 }
 
 #banner {
