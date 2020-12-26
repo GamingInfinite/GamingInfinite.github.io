@@ -2,6 +2,11 @@ $blurs: (
     "blur-half": 4px
 );
 
+$top-padding: (
+    "pt-300": 300px,
+    "pt-200": 200px
+);
+
 $heights: (
     "hght-100": 100px,
     "hght-400": 400px,
@@ -12,6 +17,12 @@ $heights: (
     .#{$name} {
         filter: blur($percent);
         -webkit-filter: blur($percent);
+    }
+}
+
+@each $name, $padding in $top-padding {
+    .#{$name} {
+        padding-top: $padding;
     }
 }
 
