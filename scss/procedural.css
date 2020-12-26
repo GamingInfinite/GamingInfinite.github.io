@@ -3,11 +3,6 @@
   -webkit-filter: blur(8px);
 }
 
-.blur-none {
-  filter: blur(0px);
-  -webkit-filter: blur(0px);
-}
-
 .hght-100 {
   height: 100px;
 }
