@@ -1,5 +1,6 @@
 $blurs: (
-    "blur-half": 8px
+    "blur-half": 8px,
+    "blur-none": 0px
 );
 
 @each $name, $percent in $blurs {

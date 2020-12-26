@@ -2,4 +2,9 @@
   filter: blur(8px);
   -webkit-filter: blur(8px);
 }
+
+.blur-none {
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
 /*# sourceMappingURL=procedural.css.map */
