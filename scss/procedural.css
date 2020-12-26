@@ -1,0 +1,5 @@
+.blur-half {
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+/*# sourceMappingURL=procedural.css.map */

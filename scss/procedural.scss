@@ -1,3 +1,10 @@
 $blurs: (
-    "blur-half": 50
-)
+    "blur-half": 8px
+);
+
+@each $name, $percent in $blurs {
+    .#{$name} {
+        filter: blur($percent);
+        -webkit-filter: blur($percent);
+    }
+}
