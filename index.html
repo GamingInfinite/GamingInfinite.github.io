@@ -4,159 +4,107 @@
     <title>GamingInfinite's Projects</title>
   </head>
   <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+    href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
     rel="stylesheet"
-    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
-    crossorigin="anonymous"
   />
-  <link href="css/main.css" rel="stylesheet" />
-  <link href="scss/procedural.css" rel="stylesheet" />
   <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-    crossorigin="anonymous"
+    src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"
+    defer
   ></script>
-  <body>
-    <div class="container-fluid blur-quarter" id="banner"></div>
-    <div class="container-fluid">
-      <div class="row pt-2 hght-500">
-        <div class="col-12" id="content">
-          <nav
-            class="
-              navbar navbar-expand-lg navbar-dark
-              bg-dark
-              rounded-pill
-              align-top
-              blur-none
-            "
-          >
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img
-                  src="images/logo.png"
-                  alt=""
-                  width="30"
-                  height="30"
-                  class="rounded-pill d-inline-block align-center"
-                />
-                Gaming Infinite
-              </a>
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle active"
-                    href="#"
-                    id="projectsDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Projects
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="projectsDropdown">
-                    <li>
-                      <a class="dropdown-item" href="#">This Website</a>
-                      <a class="dropdown-item" href="./html/voidforge.html">
-                        Voidforge
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle active"
-                    href="#"
-                    id="modsDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Mods
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="modsDropdown">
-                    <li>
-                      <a class="dropdown-item" href="/html/dioventousum.html">
-                        Supernova Sun & Penumbra Moon
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        Rutile Ruby & Star Saphire
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="html/about.html"
-                  >
-                    About Me
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="https://www.youtube.com/channel/UC0v21P9GhXR2Y7X4LhsOlwQ/"
-                  >
-                    <!-- Youtube Icon -->
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-youtube"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.122C.002 7.343.01 6.6.064 5.78l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"
-                      />
-                    </svg>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="https://www.twitch.tv/unofficialgaminginfinite"
-                  >
-                    <!-- Twitch Icon -->
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-twitch"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        d="M3.857 0L1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429l-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142v6.286z"
-                      />
-                      <path
-                        d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z"
-                      />
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-          <div class="title-text hght-400 text-center pt-200">
-            GAMINGINFINITE'S PROJECTS
+  <style>
+		[x-cloak] {
+			display: none;
+		}
+
+		.duration-300 {
+			transition-duration: 300ms;
+		}
+
+		.ease-in {
+			transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+		}
+
+		.ease-out {
+			transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+
+		.scale-90 {
+			transform: scale(.9);
+		}
+
+		.scale-100 {
+			transform: scale(1);
+		}
+	</style>
+  <body
+    class="mx-auto w-full bg-gray-100 flex items-center justify-center h-screen"
+    x-data="{ 'showModal': false }"
+    @keydown.escape="showModal = false"
+    x-cloak
+  >
+    <section class="flex flex-wrap p-4 h-full items-center">
+      <button
+        type="button"
+        class="
+          bg-transparent
+          border border-gray-500
+          hover:border-indigo-500
+          text-gray-500
+          hover:text-indigo-500
+          font-bold
+          py-2
+          px-4
+          rounded-full
+        "
+        @click="showModal = true"
+      >
+        Open Modal
+      </button>
+      <div
+        class="overflow-auto"
+        style="background-color: rgba(0, 0, 0, 0.5)"
+        x-show="showModal"
+        :class="{ 'absolute inset-0 z-10 flex items-center justify-center': showModal }"
+      >
+        <div
+          class="
+            bg-white
+            w-11/12
+            md:max-w-md
+            mx-auto
+            rounded
+            shadow-lg
+            py-4
+            text-left
+            px-6
+          "
+          x-show="showModal"
+          @click.away="showModal = false"
+          x-transition:enter="ease-out duration-300"
+          x-transition:enter-start="opacity-0 scale-90"
+          x-transition:enter-end="opacity-100 scale-100"
+          x-transition:leave="ease-in duration-300"
+          x-transition:leave-start="opacity-100 scale-100"
+          x-transition:leave-end="opacity-0 scale-90"
+        >
+        <div class="flex justify-between items-center pb-3">
+          <p class="text-2xl font-bold">Simple Modal!</p>
+					<div class="cursor-pointer z-50" @click="showModal = false">
+            <svg class="fill-current text-black" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+              <path d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z"></path>
+            </svg>
           </div>
         </div>
-      </div>
-      <div class="row py-2">
-        <div class="col-12">
-          <div class="paragraph-text text-center">
-            This is where I will be showcasing my own projects and also other
-            projects that I use/play on a regular basis on stream or on my
-            channel.
-          </div>
+        <p>Modal content can go here</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+        <div class="flex justify-end pt-2">
+          <button class="px-4 bg-transparent p-3 rounded-lg text-indigo-500 hover:bg-gray-100 hover:text-indigo-400 mr-2" @click="alert('Additional Action');">Action</button>
+          <button class="modal-close px-4 bg-indigo-500 p-3 rounded-lg text-white hover:bg-indigo-400" @click="showModal = false">Close</button>
         </div>
       </div>
-    </div>
+    </section>
   </body>
 </html>
