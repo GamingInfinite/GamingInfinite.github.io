@@ -1,0 +1,1 @@
+import{s,n as e}from"../chunks/scheduler.63274e7e.js";import{S as n,i as a,A as r,f as c}from"../chunks/index.46e06b5e.js";function d(o){return{c(){this.h()},l(t){r("svelte-1lgs0z6",document.head).forEach(c),this.h()},h(){document.title="Void Baroness"},m:e,p:e,i:e,o:e,d:e}}class m extends n{constructor(t){super(),a(this,t,null,d,s,{})}}export{m as component};
