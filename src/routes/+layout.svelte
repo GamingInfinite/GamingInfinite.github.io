@@ -17,7 +17,17 @@
       <div class="absolute w-full h-full banner blur-sm z-0" />
       <div class="z-10 text-6xl font-bold text-yellow-400">Void Baroness</div>
     </div>
-    <slot />
+    <div class="flex-1">
+      <slot />
+    </div>
+    <footer class="footer p-10 bg-base-300 text-base-content">
+      <nav>
+        <header class="footer-title">Socials</header>
+        <a class="link link-hover" href="https://twitter.com/VoidBaroness">Twitter</a>
+        <a class="link link-hover" href="https://www.youtube.com/@VoidBaroness">YouTube</a>
+        <a class="link link-hover" href="https://www.twitch.tv/voidlinghub">Twitch</a>
+      </nav>
+    </footer>
   </div>
 
   <div class="flex flex-row absolute top-4 w-full justify-center">
@@ -25,6 +35,8 @@
       <div class="navbar bg-base-300 rounded-full">
         <div class="navbar-start">
           <div class="dropdown">
+            <!-- svelte-ignore a11y-label-has-associated-control -->
+            <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
             <label tabindex="0" class="btn btn-ghost btn-circle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -40,11 +52,13 @@
                 /></svg
               >
             </label>
+            <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
             <ul
               tabindex="0"
               class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
-              <li><a href="/about">About</a></li>
+              <li><a href="/projects">Projects</a></li>
+              <li><a href="/socials">Socials</a></li>
             </ul>
           </div>
         </div>
@@ -55,6 +69,7 @@
           >
         </div>
         <div class="navbar-end pr-4">
+          <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
           <label class="swap swap-rotate" on:mousedown={swapTheme}>
             <input type="checkbox" />
             <div class="swap-off">
